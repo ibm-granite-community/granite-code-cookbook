@@ -1,6 +1,6 @@
 # Granite Code Cookbook
 
-The "Recipes" in the Granite Code Cookbook showcase the capabilites of
+The "Recipes" in the Granite Code Cookbook showcase the capabilities of
 the Granite Code models.
 
 ## Contents
@@ -27,7 +27,7 @@ good recipe:
 
 The "ingredients" and "tools" of the first point mean the data and software at hand.
 
-The second point is straightford to map into the technical space:
+The second point is straightforward to map into the technical space:
 The reader should be able to run the cells of the notebook sequentially
 and the same result as what was published in the original notebook.
 Our objective is to make these recipes reproducible in 15 minutes or less.
@@ -36,7 +36,7 @@ This may inform the decisions about recipe granularity.
 The third point is more subtle, and is what sets this kind of writing apart.
 In a technical sense, "something delicious to eat" means a system
 that demonstrates useful functionality in such a way that it sets the
-reader on the path to adopting it in their environment.  It clearly articulate the busines value achieved by the resulting system.
+reader on the path to adopting it in their environment.  It clearly articulate the business value achieved by the resulting system.
 
 For a "text to sql" recipe, for instance, the recipe should:
 
@@ -70,7 +70,7 @@ should be "recipes", there will be a need for other kinds of exposition.
 Relating to Granite Code, these might include:
 
 - Generally useful VS Code plugins
-- Application frameworks such as LangChain (and LangServe, LangGgraph, ...) and LlamaIndex
+- Application frameworks such as LangChain (and LangServe, LangGraph, ...) and LlamaIndex
 
 ### Granite Code
 
@@ -108,7 +108,7 @@ of establishing those benchmarks.
 - The Developer Certificate of Origin (DCO) applies to the code, documentation, and any example data provided. See [community](https://github.com/granite-cookbooks/community) for more on the DCO.
 - Prefer an opinionated recipe over one that is flexible
 - With that said, sometimes offering examples from multiple domains (eg for "text to sql") can be helpful.  If that brings too much complexity, split into smaller recipes.
-- Keep in mind a specific user persona when writing a recipe.  Rather than writing for a general audience, can you imagine that one specific user would find the recipe valueable from beginning to end?
+- Keep in mind a specific user persona when writing a recipe.  Rather than writing for a general audience, can you imagine that one specific user would find the recipe valuable from beginning to end?
 - Take an iterative approach to the development of this Cookbook.
 - Expect that over time, recipes will be split, merged, made uniform, deprecated, replace, or deleted.
-- The `granite-cookbooks` org is not the place to host OSS "code" other than what is directy visible in the recipes and simple utility functions.
+- The `granite-cookbooks` org is not the place to host OSS "code" other than what is directly visible in the recipes and simple utility functions.
