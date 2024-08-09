@@ -49,9 +49,8 @@ For a "text to sql" recipe, for instance, the recipe should:
 - Remind or show the reader how to obtain the schema and execute the query.
 
 For recipe authors with strong familiarity with a specific capability or tool,
-the tendency may be to write a recipe oriented around the tool.
-Wherever possible, consider alternate ways to phrase the recipe so that the
-end result is showcased.
+the first inclination may be to write a recipe oriented around the tool.
+Consider alternate ways to phrase the recipe so that the end result is showcased, rather than the tool.
 
 Under the cooking analogy, that would mean writing a great soup recipe rather than one that talks about the features of a food processor.  If the soup tastes great and is easy to prepare, the reader will likely want to know more about how it was made.
 
@@ -59,7 +58,7 @@ Recipes will vary in complexity.
 Some may be single inference calls.
 Others may illustrate useful agentic workflows.
 
-A "cookbook" is not intended to be a comperhensive guide to all
+A "cookbook" is not intended to be a comprehensive guide to all
 issues that may arise during development with Granite Code.
 Recipes will link to helpful external resources on topics including: distributed systems, UI, design, AI/ML theory, metrics, etc.
 
@@ -75,22 +74,19 @@ Relating to Granite Code, these might include:
 
 ### Granite Code
 
-The common element of all the recipes in this Cookbook
-is either direct usage of a Granite Code model, or strong
-relevance to those models.
+The common element of all the recipes in this Cookbook is either direct usage of a Granite Code model, or strong relevance to those models.
 
 ### Everything Local (... except, perhaps, the model)
 
-For several reasons, want to minimize the reader's exposure
-to sign-up flows and stateful network calls.
+Minimize the reader's exposure to sign-up flows and stateful network calls.
 
 In most cases, the user should expect to do a single `git clone`,
-run a notebook, and then perhaps do some `pip install` early in
+run a notebook, and then optionally do some `pip install` early in
 the execution of the notebook.
 
 The recipes should not depend on the model being either remotely hosted
 or local.  It is OK for a recipe to make a choice, but providing a link
-to istructions for the other choice is useful.
+to instructions for the other choice is useful.
 
 ### Automated Validation
 
@@ -111,8 +107,8 @@ of establishing those benchmarks.
 
 - The Developer Certificate of Origin (DCO) applies to the code, documentation, and any example data provided. See [community](https://github.com/granite-cookbooks/community) for more on the DCO.
 - Prefer an opinionated recipe over one that is flexible
-- With that said, sometimes offering exmples from multiple domains (eg for "text to sql") can be helpful.  If that brings too much complexity, split into smaller recipes.
+- With that said, sometimes offering examples from multiple domains (eg for "text to sql") can be helpful.  If that brings too much complexity, split into smaller recipes.
 - Keep in mind a specific user persona when writing a recipe.  Rather than writing for a general audience, can you imagine that one specific user would find the recipe valueable from beginning to end?
-- Let's take an iterative approach to the development of this Cookbook
+- Take an iterative approach to the development of this Cookbook.
 - Expect that over time, recipes will be split, merged, made uniform, deprecated, replace, or deleted.
 - The `granite-cookbooks` org is not the place to host OSS "code" other than what is directy visible in the recipes and simple utility functions.
