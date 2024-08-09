@@ -11,12 +11,7 @@ The Granite Code Cookbook is still in early development.
 
 ### General Requirements
 
-For information about contributing to this repo, code of conduct guidelines, etc., see the [community](https://github.com/granite-cookbooks/community) project.
-
-All commits are required to be DCO-signed.
-
-The GitHub Recommended code security settings are enforced on this
-public repository.
+For information about contributing to this repo, code of conduct guidelines, etc., see the [community](https://github.com/granite-cookbooks/community) project.  All commits are required to be DCO-signed.  The GitHub Recommended code security settings are enforced on this public repository.
 
 ### What is a "Recipe"?
 
@@ -27,15 +22,15 @@ Under the implied cooking analogy, there are three key defining elements of a
 good recipe:
 
 1. It clearly states the required ingredients and tools up front
-2. It it straightforward to reproduce efficiently
+2. It is straightforward to reproduce efficiently
 3. It results in something delicious to eat
 
-The "ingredients" and "tools" of the first point, mean the data and software at hand.
+The "ingredients" and "tools" of the first point mean the data and software at hand.
 
 The second point is straightford to map into the technical space:
 The reader should be able to run the cells of the notebook sequentially
 and the same result as what was published in the original notebook.
-Our objective is to make these recipes reproduceable in 15 minutes or less.
+Our objective is to make these recipes reproducible in 15 minutes or less.
 This may inform the decisions about recipe granularity.
 
 The third point is more subtle, and is what sets this kind of writing apart.
@@ -120,3 +115,4 @@ of establishing those benchmarks.
 - Keep in mind a specific user persona when writing a recipe.  Rather than writing for a general audience, can you imagine that one specific user would find the recipe valueable from beginning to end?
 - Let's take an iterative approach to the development of this Cookbook
 - Expect that over time, recipes will be split, merged, made uniform, deprecated, replace, or deleted.
+- The `granite-cookbooks` org is not the place to host OSS "code" other than what is directy visible in the recipes and simple utility functions.
