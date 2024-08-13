@@ -11,7 +11,7 @@ The Granite Code Cookbook is still in early development.
 
 ### General Requirements
 
-For information about contributing to this repo, code of conduct guidelines, etc., see the [community](https://github.com/granite-cookbooks/community) project.  All commits are required to be DCO-signed.  The GitHub Recommended code security settings are enforced on this public repository.
+For information about contributing to this repo, code of conduct guidelines, etc., see the [community](https://github.com/ibm-granite-cookbooks/community) project.  All commits are required to be DCO-signed.  The GitHub Recommended code security settings are enforced on this public repository.
 
 ### What is a "Recipe"?
 
@@ -105,10 +105,14 @@ of establishing those benchmarks.
 
 ### Other general guidance
 
-- The Developer Certificate of Origin (DCO) applies to the code, documentation, and any example data provided. See [community](https://github.com/granite-cookbooks/community) for more on the DCO.
+- The Developer Certificate of Origin (DCO) applies to the code, documentation, and any example data provided. See [community](https://github.com/ibm-granite-cookbooks/community) for more on the DCO.
 - Prefer an opinionated recipe over one that is flexible
 - With that said, sometimes offering examples from multiple domains (eg for "text to sql") can be helpful.  If that brings too much complexity, split into smaller recipes.
 - Keep in mind a specific user persona when writing a recipe.  Rather than writing for a general audience, can you imagine that one specific user would find the recipe valuable from beginning to end?
 - Take an iterative approach to the development of this Cookbook.
 - Expect that over time, recipes will be split, merged, made uniform, deprecated, replace, or deleted.
-- The `granite-cookbooks` org is not the place to host OSS "code" other than what is directly visible in the recipes and simple utility functions.
+- The `ibm-granite-cookbooks` org does not host OSS "code" other than what is directly visible in the recipes and simple utility functions.
+
+## IBM Public Repository Disclosure
+
+All content in these repositories including code has been provided by IBM under the associated open source software license and IBM is under no obligation to provide enhancements, updates, or support. IBM developers produced this code as an open source project (not as an IBM product), and IBM makes no assertions as to the level of quality nor security, and will not be maintaining this code going forward.
