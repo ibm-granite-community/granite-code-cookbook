@@ -7,6 +7,10 @@ This is a DCO test. Is this change's commit signed??
 
 TEST 2
 
+TEST 2B
+
+TEST 2C
+
 ## Contents
 
 The Granite Code Cookbook is still in early development.
