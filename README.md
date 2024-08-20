@@ -3,6 +3,10 @@
 The "Recipes" in the Granite Code Cookbook showcase the capabilities of
 the Granite Code models.
 
+This is a DCO test. Is this change's commit signed??
+
+TEST 2
+
 ## Contents
 
 The Granite Code Cookbook is still in early development.
