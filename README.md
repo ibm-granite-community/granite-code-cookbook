@@ -13,6 +13,8 @@ TEST 3b
 
 TEST 3c
 
+TEST 3d
+
 ## Contents
 
 The Granite Code Cookbook is still in early development.
