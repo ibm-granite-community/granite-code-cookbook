@@ -1,7 +1,7 @@
 # Granite Code Cookbook
 
 The "Recipes" in the Granite Code Cookbook showcase the capabilities of
-the Granite Code models.
+the IBM Granite Code models.
 
 ## Contents
 
