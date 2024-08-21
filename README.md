@@ -11,7 +11,11 @@ The Granite Code Cookbook is still in early development.
 
 ### General Requirements
 
-For information about contributing to this repo, code of conduct guidelines, etc., see the [community](https://github.com/ibm-granite-cookbooks/community) project.  All commits are required to be DCO-signed.  The GitHub Recommended code security settings are enforced on this public repository.
+For information about contributing to this repo, code of conduct guidelines, etc., see the [community](https://github.com/ibm-granite-cookbooks/community) project.
+
+All commits are required to be DCO-signed.
+
+The GitHub Recommended code security settings are enforced on this public repository.
 
 ### What is a "Recipe"?
 
