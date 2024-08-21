@@ -96,6 +96,7 @@ to instructions for the other choice is useful.
 
 The code in the recipes will be automatically validated (coming soon).
 Minimally, this should guarantee that no unexpected errors occur.
+
 Checking deeper assertions about the behavior of the code
 in the cells is preferred.
 
