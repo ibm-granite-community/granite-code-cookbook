@@ -11,7 +11,7 @@ The Granite Code Cookbook is still in early development.
 
 ### General Requirements
 
-For information about contributing to this repo, code of conduct guidelines, etc., see the [community](https://github.com/ibm-granite-cookbooks/community) project.  All commits are required to be DCO-signed.  The GitHub Recommended code security settings are enforced on this public repository.
+For information about contributing to this repo, code of conduct guidelines, etc., see the [community CONTRIBUTING guide][cCg].  All commits require DCO-signoff (discussed [here][cCg-legal]) _and_ GPG or SSH signing (discussed [here][cCg-signing]).  The GitHub recommended code security settings are enforced on this public repository (which include the signing requirement).
 
 ### What is a "Recipe"?
 
@@ -105,8 +105,9 @@ of establishing those benchmarks.
 
 ### Other general guidance
 
-- The Developer Certificate of Origin (DCO) applies to the code, documentation, and any example data provided. See [community](https://github.com/ibm-granite-cookbooks/community) for more on the DCO.
-- Prefer an opinionated recipe over one that is flexible
+- The Developer Certificate of Origin (DCO) applies to the code, documentation, and any example data provided. See community CONTRIBUTING guide [legal section][cCg-legal] for more on the DCO.
+- Commits must be GPG or SSH signed. See the community CONTRIBUTING guide on [signing commits][cCg-signing] for details.
+- Prefer an opinionated recipe over one that is flexible.
 - With that said, sometimes offering examples from multiple domains (eg for "text to sql") can be helpful.  If that brings too much complexity, split into smaller recipes.
 - Keep in mind a specific user persona when writing a recipe.  Rather than writing for a general audience, can you imagine that one specific user would find the recipe valuable from beginning to end?
 - Take an iterative approach to the development of this Cookbook.
@@ -116,3 +117,7 @@ of establishing those benchmarks.
 ## IBM Public Repository Disclosure
 
 All content in these repositories including code has been provided by IBM under the associated open source software license and IBM is under no obligation to provide enhancements, updates, or support. IBM developers produced this code as an open source project (not as an IBM product), and IBM makes no assertions as to the level of quality nor security, and will not be maintaining this code going forward.
+
+[cCg]: https://github.com/ibm-granite-cookbooks/community/blob/main/CONTRIBUTING.md
+[cCg-legal]: https://github.com/ibm-granite-cookbooks/community/blob/main/CONTRIBUTING.md#legal
+[cCg-signing]: https://github.com/ibm-granite-cookbooks/community/blob/main/CONTRIBUTING.md#signing-commits
