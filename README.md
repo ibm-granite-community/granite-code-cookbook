@@ -1,4 +1,4 @@
-# Granite Code Cookbook
+# IBM Granite Code Cookbook
 
 The "Recipes" in the Granite Code Cookbook showcase the capabilities of
 the IBM Granite Code models.
@@ -11,7 +11,7 @@ The Granite Code Cookbook is still in early development.
 
 ### General Requirements
 
-For information about contributing to this repo, code of conduct guidelines, etc., see the [community](https://github.com/ibm-granite-cookbooks/community) project.  All commits are required to be DCO-signed.  The GitHub Recommended code security settings are enforced on this public repository.
+For information about contributing to this repo, code of conduct guidelines, etc., see the [community](https://github.com/ibm-granite-community/community) project.  All commits are required to be DCO-signed.  The GitHub Recommended code security settings are enforced on this public repository.
 
 ### What is a "Recipe"?
 
@@ -105,7 +105,7 @@ of establishing those benchmarks.
 
 ### Other general guidance
 
-- The Developer Certificate of Origin (DCO) applies to the code, documentation, and any example data provided. See [community](https://github.com/ibm-granite-cookbooks/community) for more on the DCO.
+- The Developer Certificate of Origin (DCO) applies to the code, documentation, and any example data provided. See [community](https://github.com/ibm-granite-community/community) for more on the DCO.
 - Prefer an opinionated recipe over one that is flexible
 - With that said, sometimes offering examples from multiple domains (eg for "text to sql") can be helpful.  If that brings too much complexity, split into smaller recipes.
 - Keep in mind a specific user persona when writing a recipe.  Rather than writing for a general audience, can you imagine that one specific user would find the recipe valuable from beginning to end?
