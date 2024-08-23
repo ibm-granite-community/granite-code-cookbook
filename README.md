@@ -1,7 +1,7 @@
-# Granite Code Cookbook
+# IBM Granite Code Cookbook
 
 The "Recipes" in the Granite Code Cookbook showcase the capabilities of
-the Granite Code models.
+the IBM Granite Code models.
 
 ## Contents
 
@@ -112,7 +112,7 @@ of establishing those benchmarks.
 - Keep in mind a specific user persona when writing a recipe.  Rather than writing for a general audience, can you imagine that one specific user would find the recipe valuable from beginning to end?
 - Take an iterative approach to the development of this Cookbook.
 - Expect that over time, recipes will be split, merged, made uniform, deprecated, replace, or deleted.
-- The `ibm-granite-cookbooks` org does not host OSS "code" other than what is directly visible in the recipes and simple utility functions.
+- The `ibm-granite-community` org does not host OSS "code" other than what is directly visible in the recipes and simple utility functions.
 
 ## IBM Public Repository Disclosure
 
