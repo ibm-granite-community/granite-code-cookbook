@@ -5,7 +5,7 @@ the IBM Granite Code models.
 
 ## Contents
 
-The Granite Code Cookbook is still in early development.
+See the [recipes](recipes/)
 
 ## Contributing
 
