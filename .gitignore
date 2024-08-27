@@ -1,6 +1,19 @@
-venv
+# venv files
+venv/
+env/
 .venv
 .venv*
 .env
+
+# Jupyter checkpoints and VS Code files
 .ipynb_checkpoints
 .vscode
+
+# Byte-compiled / optimized / DLL Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IPython
+profile_default/
+ipython_config.py
