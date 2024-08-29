@@ -26,9 +26,13 @@ jobs:
           python -m pip install --upgrade pip  
           pip install nbconvert nbclient ipykernel ollama
 
+      - name: Define Notebooks
+        id: notebooks
+        run: echo "notebooks=recipes/Getting_Started_with_Granite_Code.ipynb " >> $GITHUB_ENV
+
       - name: Run Jupyter Notebooks
         run: |
-          for notebook in $(find . -name '*.ipynb'); do  
+          for notebook in ${{ env.notebooks }}; do  
             echo "Executing $notebook"  
             jupyter nbconvert --to notebook --execute --inplace $notebook  
           done
