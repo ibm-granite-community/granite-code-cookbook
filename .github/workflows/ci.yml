@@ -31,6 +31,8 @@ jobs:
         run: echo "notebooks=recipes/Getting_Started_with_Granite_Code.ipynb " >> $GITHUB_ENV
 
       - name: Run Jupyter Notebooks
+        env:
+          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
         run: |
           for notebook in ${{ env.notebooks }}; do  
             echo "Executing $notebook"  
