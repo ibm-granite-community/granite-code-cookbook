@@ -6,7 +6,7 @@ on:
       - pm-41
   pull_request:
     branches:
-      - pm-41
+      - main
 
 jobs:
   test-notebooks:
