@@ -8,11 +8,11 @@ For more details, please refer to CLDK GitHub [repository](https://github.com/IB
 
 There are example recipes:
 
-* [Code Sumarization](./code_summarization.ipynb) - Summarize what a Java method does.
+* [Code Summarization](./code_summarization.ipynb) - Summarize what a Java method does.
 * [Generate Unit Tests](./generate_unit_tests.ipynb) - Generate unit tests for Java code.
 * [Validating Code](./validating_code.ipynb) - Translate Java code to Python and analyze it for correctness.
 
-Please start with the [Code Sumarization](./code_summarization.ipynb) tutorial, as it provides set up instructions that won't be repeated in the other notebooks.
+Please start with the [Code Summarization](./code_summarization.ipynb) tutorial, as it provides set up instructions that won't be repeated in the other notebooks.
 
 The recipes download Java example code to a temporary directory `./temp`. When you are finished with these recipes, you can safely delete this directory, e.g.,
 
