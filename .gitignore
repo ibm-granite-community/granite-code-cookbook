@@ -17,5 +17,9 @@ __pycache__/
 # IPython
 profile_default/
 ipython_config.py
-recipes/CodeLLM_DevKit/temp/
-recipes/CodeLLM_DevKit/analysis.json
+
+# "Temporary" workspaces.
+temp/
+
+# CodeLLM_DevKit output
+analysis.json
