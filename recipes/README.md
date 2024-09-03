@@ -7,7 +7,7 @@
    </a>
 
 ### IDE Assistants
-1. [Assistant in VSCode Using Continue](Continue_VSCode/)
+1. [Coding Assistant in VSCode](Coding_Assistant_in_VSCode/)
 
 
 ### Generating Code
