@@ -14,8 +14,9 @@ There are example recipes:
 
 Please start with the [Code Summarization](./code_summarization.ipynb) tutorial, as it provides set up instructions that won't be repeated in the other notebooks.
 
-The recipes download Java example code to a temporary directory `./temp`. When you are finished with these recipes, you can safely delete this directory, e.g.,
+The recipes download Java example code to a temporary directory `./temp` and the analysis has been saved in `./analysis` directory. When you are finished with these recipes, you can safely delete these directories, e.g.,
 
 ```shell
 rm -rf temp
+rm -rf analysis
 ```
