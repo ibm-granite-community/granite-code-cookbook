@@ -2,7 +2,7 @@
 
 ### Getting Started
 1. [Running Jupyter Notebooks Locally](Getting_Started_with_Jupyter_Locally/Getting_Started_with_Jupyter_Locally.md)
-2. [Basic Inference](Getting_Started_with_Granite_Code.ipynb)
+2. [Use Granite Code Hosted on Replicate](Getting_Started_with_Granite_Code.ipynb)
    <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/Getting_Started_with_Granite_Code.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
