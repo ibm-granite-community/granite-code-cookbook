@@ -33,3 +33,8 @@
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
 
+### Guard Rails
+1. [Hate, Abuse, and Profanity (HAP) Scoring](Guard-Rails/HAP.ipynb)
+   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/Guard-Rails/HAP.ipynb">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+   </a>
