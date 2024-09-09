@@ -30,7 +30,7 @@ jobs:
         id: notebooks
         run: echo "notebooks=recipes/Getting_Started_with_Granite_Code.ipynb \
           recipes/CodeLLM_DevKit/generate_unit_tests.ipynb \
-          recipes/CodeLLM_DevKit/validating_code_translation.ipynb" >> $GITHUB_ENV
+          recipes/Guard-Rails/HAP.ipynb" >> $GITHUB_ENV
 
       - name: Set up Maven
         uses: stCarolas/setup-maven@v5
