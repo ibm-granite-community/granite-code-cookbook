@@ -4,6 +4,7 @@ env/
 .venv
 .venv*
 .env
+.idea
 
 # Jupyter checkpoints and VS Code files
 .ipynb_checkpoints
