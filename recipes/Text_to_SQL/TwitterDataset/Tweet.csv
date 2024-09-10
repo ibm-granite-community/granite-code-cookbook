@@ -1,0 +1,21 @@
+﻿TweetId,Weekday,Hour,Day,Lang,IsReshare,Reach,RetweetCount,Likes,Klout,Sentiment,Text,LocationID,UserID
+tw-001,Monday,14,3,en,FALSE,1000,5,20,45,0.5,"""Loving the weather today!""",1,U001
+tw-002,Tuesday,16,4,en,TRUE,2000,10,30,55,-0.2,"""Retweeting an amazing fact.""",2,U002
+tw-003,Wednesday,11,5,en,FALSE,1500,3,15,60,0.7,"""Just had a great meeting!""",3,U003
+tw-004,Thursday,10,6,en,FALSE,800,1,5,35,-0.1,"""Feeling a bit tired today.""",4,U004
+tw-005,Friday,13,7,en,TRUE,3000,12,50,70,0.3,"""Sharing a valuable resource!""",5,U005
+tw-006,Monday,8,8,en,FALSE,1200,6,25,40,0.8,"""Morning workout done!""",1,U001
+tw-007,Monday,9,8,en,FALSE,1200,6,25,40,0.8,"""Happy Monday Floks!""",1,U001
+tw-008,Tuesday,20,9,en,TRUE,1700,8,35,50,-0.4,"""Retweeting some late-night thoughts.""",2,U002
+tw-009,Wednesday,14,10,en,FALSE,900,2,10,38,0.1,"""Excited for the weekend!""",3,U003
+tw-010,Thursday,12,11,en,TRUE,2500,9,40,65,0.6,"""Exploring new ideas at work.""",4,U004
+tw-011,Friday,17,12,en,TRUE,2200,15,55,75,-0.5,"""Retweeting an interesting debate.""",5,U005
+tw-012,Monday,10,1,en,FALSE,120,2,5,50,0.8,"""Just had an amazing coffee!""",6,U006
+tw-013,Tuesday,14,2,es,TRUE,300,5,15,60,-0.3,"""El tiempo está increíble hoy.""",7,U007
+tw-014,Wednesday,18,3,en,FALSE,450,7,20,70,0.1,"""Looking forward to the weekend.""",8,U008
+tw-015,Thursday,9,4,fr,FALSE,100,1,3,40,-0.5,"""J'aime Paris en été.""",9,U009
+tw-016,Friday,12,5,en,TRUE,600,8,22,80,0.6,"""TGIF! Plans for the weekend?""",10,U010
+tw-017,Saturday,16,6,de,FALSE,200,4,10,55,-0.1,"""Das Wetter ist heute gut.""",10,U006
+tw-018,Sunday,20,7,en,TRUE,500,6,18,75,0.3,"""Chilling with friends.""",9,U007
+tw-019,Monday,7,8,it,FALSE,150,2,6,45,0,"""Buongiorno a tutti!""",8,U008
+tw-020,Tuesday,11,9,en,FALSE,320,3,12,65,0.2,"""Productive morning at work.""",7,U009
