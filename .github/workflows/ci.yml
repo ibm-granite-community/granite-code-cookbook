@@ -28,14 +28,9 @@ jobs:
 
       - name: Define Notebooks
         id: notebooks
-        run: echo "recipes/Text_to_Shell/Text_to_Shell.ipynb \
-          notebooks=recipes/Getting_Started_with_Granite_Code.ipynb \
+        run: echo "notebooks=recipes/Text_to_Shell/Text_to_Shell.ipynb \
+          recipes/Getting_Started_with_Granite_Code.ipynb \
           recipes/Guard-Rails/HAP.ipynb" >> $GITHUB_ENV
-
-      - name: Set up Maven
-        uses: stCarolas/setup-maven@v5
-        with:
-          maven-version: 3.8.2
 
       - name: Run Jupyter Notebooks
         env:
