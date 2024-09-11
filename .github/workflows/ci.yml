@@ -16,6 +16,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Set up Java
+        run: |
+          sudo apt-get update  
+          sudo apt-get install -y default-jdk  
+          java -version  
+          echo "JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")" >> $GITHUB_ENV  
+
+      - name: Verify Java installation
+        run: |
+          echo $JAVA_HOME  
+          java -version  
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
