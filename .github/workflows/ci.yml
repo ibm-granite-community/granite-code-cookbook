@@ -3,7 +3,7 @@ name: CI for Jupyter Notebooks
 on:
   push:
     branches:
-      - pm-41
+      - main
   pull_request:
     branches:
       - main
@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.8"
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
@@ -28,7 +28,10 @@ jobs:
 
       - name: Define Notebooks
         id: notebooks
-        run: echo "notebooks=recipes/testing/Dummy_For_Testing.ipynb " >> $GITHUB_ENV
+        run: echo "notebooks=recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb \
+          recipes/Text_to_Shell/Text_to_Shell.ipynb \
+          recipes/Getting_Started_with_Granite_Code.ipynb \
+          recipes/Guard-Rails/HAP.ipynb" >> $GITHUB_ENV
 
       - name: Run Jupyter Notebooks
         env:
