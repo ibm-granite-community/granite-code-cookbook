@@ -40,7 +40,8 @@ jobs:
 
       - name: Define Notebooks
         id: notebooks
-        run: echo "notebooks=recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb \
+        run: echo "notebooks=recipes/CodeLLM_DevKit/code_summarization.ipynb \
+          recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb \
           recipes/Text_to_Shell/Text_to_Shell.ipynb \
           recipes/Getting_Started_with_Granite_Code.ipynb \
           recipes/Guard-Rails/HAP.ipynb" >> $GITHUB_ENV
