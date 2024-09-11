@@ -38,19 +38,11 @@ jobs:
           python -m pip install --upgrade pip  
           pip install nbconvert nbclient ipykernel
 
-      - name: Define Notebooks
-        id: notebooks
-        run: echo "notebooks=recipes/CodeLLM_DevKit/code_summarization.ipynb \
-          recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb \
-          recipes/Text_to_Shell/Text_to_Shell.ipynb \
-          recipes/Getting_Started_with_Granite_Code.ipynb \
-          recipes/Guard-Rails/HAP.ipynb" >> $GITHUB_ENV
-
       - name: Run Jupyter Notebooks
         env:
           REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
         run: |
-          for notebook in ${{ env.notebooks }}; do  
+          for notebook in $(find . -name '*.ipynb'); do  
             echo "Executing $notebook"  
             jupyter nbconvert --to notebook --execute --inplace $notebook  
           done
