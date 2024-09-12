@@ -26,6 +26,13 @@ jobs:
           python -m pip install --upgrade pip  
           pip install nbconvert nbclient ipykernel
 
+      - name: Setup Ollama
+        run : |
+          curl https://ollama.ai/install.sh | sh
+          nohup ollama serve > ollama_serve.log 2>&1 &  
+          sleep 10
+          ollama pull granite-code:3b
+
       - name: Define Notebooks
         id: notebooks
         run: echo "notebooks=recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb \
