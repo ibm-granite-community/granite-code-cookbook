@@ -16,6 +16,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Set up Java
+        run: |
+          sudo apt-get update  
+          sudo apt-get install -y default-jdk  
+          java -version  
+          echo "JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")" >> $GITHUB_ENV  
+
+      - name: Verify Java installation
+        run: |
+          echo $JAVA_HOME  
+          java -version  
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -33,18 +45,11 @@ jobs:
           sleep 10
           ollama pull granite-code:3b
 
-      - name: Define Notebooks
-        id: notebooks
-        run: echo "notebooks=recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb \
-          recipes/Text_to_Shell/Text_to_Shell.ipynb \
-          recipes/Getting_Started_with_Granite_Code.ipynb \
-          recipes/Guard-Rails/HAP.ipynb" >> $GITHUB_ENV
-
       - name: Run Jupyter Notebooks
         env:
           REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
         run: |
-          for notebook in ${{ env.notebooks }}; do  
+          for notebook in $(find . -name '*.ipynb'); do  
             echo "Executing $notebook"  
             jupyter nbconvert --to notebook --execute --inplace $notebook  
           done
