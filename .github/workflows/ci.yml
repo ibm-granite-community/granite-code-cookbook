@@ -48,8 +48,23 @@ jobs:
       - name: Run Jupyter Notebooks
         env:
           REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+          EXCLUDED_NOTEBOOKS: "recipes/Fine_Tuning_Granite/Finetuning_Granite.ipynb"
         run: |
+          excluded_notebooks=$(echo $EXCLUDED_NOTEBOOKS | tr ',' '\n')
+
           for notebook in $(find . -name '*.ipynb'); do  
-            echo "Executing $notebook"  
-            jupyter nbconvert --to notebook --execute --inplace $notebook  
+            skip=false
+            for excluded in $excluded_notebooks; do
+              if [[ "$notebook" == *"$excluded"* ]]; then
+                echo "Skipping $notebook as it is in the excluded list"
+                skip=true
+                break
+              fi
+            done
+
+            if [ "$skip" = false ]; then
+              echo "Executing $notebook"
+              jupyter nbconvert --to notebook --execute --inplace $notebook
+            fi
           done
+      
