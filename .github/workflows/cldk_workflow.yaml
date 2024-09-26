@@ -1,4 +1,4 @@
-name: CI for Java Notebooks
+name: CI for CLDK Notebooks
 
 on:
   push:
@@ -40,11 +40,11 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip    
-          pip install nbconvert nbclient ipykernel
+          pip install nbconvert nbclient ipykernel 
 
       - name: Run Java Notebooks
         run: |
-          notebooks=$(cat .github/notebook_lists/java_notebooks.txt | tr '\n' ' ')  
+          notebooks=$(cat .github/notebook_lists/cldk_notebooks.txt | tr '\n' ' ')  
           for notebook in $notebooks; do  
             echo "Executing $notebook"  
             jupyter nbconvert --to notebook --execute --inplace $notebook  
