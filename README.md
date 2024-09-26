@@ -3,9 +3,9 @@
 The "Recipes" in the Granite Code Cookbook showcase the capabilities of
 the IBM Granite Code models.
 
-## Contents
+## Recipes
 
-### Notebooks
+### Notebook Environments
 
 1. [Run Jupyter Notebooks Locally](recipes/Getting_Started_with_Jupyter_Locally/Getting_Started_with_Jupyter_Locally.md)
 2. A Google Colab button is adjacent to the recipes listed below wherever that environment is supported.
