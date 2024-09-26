@@ -5,12 +5,12 @@ on:
     branches:
       - main
     paths:
-      - '.github/notebook_lists/java_notebooks.txt'
+      - '.github/notebook_lists/cldk_notebooks.txt'
   pull_request:
     branches:
       - main
     paths:
-      - '.github/notebook_lists/java_notebooks.txt'
+      - '.github/notebook_lists/cldk_notebooks.txt'
 
 jobs:
   test-java-notebooks:
