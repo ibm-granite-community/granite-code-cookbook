@@ -10,7 +10,7 @@ the IBM Granite Code models.
 1. [Run Jupyter Notebooks Locally](recipes/Getting_Started_with_Jupyter_Locally/Getting_Started_with_Jupyter_Locally.md)
 2. A Google Colab button is adjacent to the recipes listed below wherever that environment is supported.
 
-## Large Language Model Inference
+### Large Language Model Inference
 
 1. [Use Granite Code Hosted on Replicate](recipes/Getting_Started_with_Granite_Code.ipynb)
    <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/Getting_Started_with_Granite_Code.ipynb">
