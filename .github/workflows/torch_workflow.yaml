@@ -32,7 +32,7 @@ jobs:
 
       - name: Run Torch Notebooks
         run: |
-          notebooks=$(cat torch_notebooks.txt | tr '\n' ' ')  
+          notebooks=$(cat .github/notebook_lists/torch_notebooks.txt | tr '\n' ' ')  
           for notebook in $notebooks; do  
             echo "Executing $notebook"  
             jupyter nbconvert --to notebook --execute --inplace $notebook  

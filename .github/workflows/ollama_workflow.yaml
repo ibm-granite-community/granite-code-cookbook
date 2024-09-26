@@ -39,7 +39,7 @@ jobs:
 
       - name: Run Ollama Notebooks
         run: |
-          notebooks=$(cat ollama_notebooks.txt | tr '\n' ' ')  
+          notebooks=$(cat .github/notebook_lists/ollama_notebooks.txt | tr '\n' ' ')  
           for notebook in $notebooks; do  
             echo "Executing $notebook"  
             jupyter nbconvert --to notebook --execute --inplace $notebook  

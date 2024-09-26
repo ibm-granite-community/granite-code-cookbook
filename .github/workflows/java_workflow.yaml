@@ -44,7 +44,7 @@ jobs:
 
       - name: Run Java Notebooks
         run: |
-          notebooks=$(cat java_notebooks.txt | tr '\n' ' ')  
+          notebooks=$(cat .github/notebook_lists/java_notebooks.txt | tr '\n' ' ')  
           for notebook in $notebooks; do  
             echo "Executing $notebook"  
             jupyter nbconvert --to notebook --execute --inplace $notebook  
