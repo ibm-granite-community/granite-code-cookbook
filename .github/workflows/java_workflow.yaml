@@ -1,0 +1,52 @@
+name: CI for Java Notebooks
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/notebook_lists/java_notebooks.txt'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/notebook_lists/java_notebooks.txt'
+
+jobs:
+  test-java-notebooks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Set up Java
+        run: |
+          sudo apt-get update    
+          sudo apt-get install -y default-jdk    
+          java -version    
+          echo "JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")" >> $GITHUB_ENV    
+
+      - name: Verify Java installation
+        run: |
+          echo $JAVA_HOME    
+          java -version    
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip    
+          pip install nbconvert nbclient ipykernel
+
+      - name: Run Java Notebooks
+        run: |
+          notebooks=$(cat java_notebooks.txt | tr '\n' ' ')  
+          for notebook in $notebooks; do  
+            echo "Executing $notebook"  
+            jupyter nbconvert --to notebook --execute --inplace $notebook  
+          done  
+  
