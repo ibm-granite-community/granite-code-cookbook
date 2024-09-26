@@ -37,6 +37,13 @@ jobs:
           echo $JAVA_HOME    
           java -version    
 
+      - name: Setup Ollama
+        run : |
+          curl https://ollama.ai/install.sh | sh  
+          nohup ollama serve > ollama_serve.log 2>&1 &    
+          sleep 10  
+          ollama pull granite-code:3b 
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip    
