@@ -1,1 +1,2 @@
 recipes/Getting_Started_with_Granite_Code.ipynb
+recipes/Guard-Rails/HAP.ipynb
