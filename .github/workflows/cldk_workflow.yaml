@@ -40,7 +40,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip    
-          pip install nbconvert nbclient ipykernel 
+          pip install nbconvert nbclient ipykernel git+https://github.com/IBM/codellm-devkit.git
 
       - name: Run Java Notebooks
         run: |
