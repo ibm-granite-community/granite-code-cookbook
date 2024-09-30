@@ -13,6 +13,7 @@ on:
     paths:
       - 'recipes/Getting_Started_with_Granite_Code.ipynb'
       - 'recipes/Guard-Rails/HAP.ipynb'
+      - 'recipes/Auto_Documentation/Auto_Documentation.ipynb'
 
 jobs:
   test-vanilla-notebooks:
