@@ -5,15 +5,17 @@ on:
     branches:
       - main
     paths:
-      - '.github/notebook_lists/vanilla_notebooks.txt'
+      - 'recipes/Getting_Started_with_Granite_Code.ipynb'
+      - 'recipes/Guard-Rails/HAP.ipynb'
   pull_request:
     branches:
       - main
     paths:
-      - '.github/notebook_lists/vanilla_notebooks.txt'
+      - 'recipes/Getting_Started_with_Granite_Code.ipynb'
+      - 'recipes/Guard-Rails/HAP.ipynb'
 
 jobs:
-  test-torch-notebooks:
+  test-vanilla-notebooks:
     runs-on: ubuntu-latest
 
     steps:
