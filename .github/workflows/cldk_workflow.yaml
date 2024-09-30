@@ -4,13 +4,17 @@ on:
   push:
     branches:
       - main
-#    paths:
-#      - '.github/notebook_lists/cldk_notebooks.txt'
+    paths:
+      - 'recipes/CodeLLM_DevKit/code_summarization.ipynb'
+      - 'recipes/CodeLLM_DevKit/generate_unit_tests.ipynb'
+      - 'recipes/CodeLLM_DevKit/validating_code_translation.ipynb'
   pull_request:
     branches:
       - main
-#    paths:
-#      - '.github/notebook_lists/cldk_notebooks.txt'
+    paths:
+      - 'recipes/CodeLLM_DevKit/code_summarization.ipynb'
+      - 'recipes/CodeLLM_DevKit/generate_unit_tests.ipynb'
+      - 'recipes/CodeLLM_DevKit/validating_code_translation.ipynb'
 
 jobs:
   test-java-notebooks:
