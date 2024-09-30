@@ -5,12 +5,16 @@ on:
     branches:
       - main
     paths:
-      - '.github/notebook_lists/ollama_notebooks.txt'
+      - 'recipes/Text_to_Shell/Text_to_Shell.ipynb'
+      - 'recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb'
+      - 'recipes/Text_to_SQL/Text_to_SQL.ipynb'
   pull_request:
     branches:
       - main
     paths:
-      - '.github/notebook_lists/ollama_notebooks.txt'
+      - 'recipes/Text_to_Shell/Text_to_Shell.ipynb'
+      - 'recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb'
+      - 'recipes/Text_to_SQL/Text_to_SQL.ipynb'
 
 jobs:
   test-ollama-notebooks:
