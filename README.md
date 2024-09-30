@@ -3,6 +3,8 @@
 The "Recipes" in the Granite Code Cookbook showcase the capabilities of
 the IBM Granite Code models.
 
+If you are interested in joining our community, please [join us on Discord](https://discord.gg/PeThSs7A).
+
 ## Recipes
 
 ### Notebook Environments
@@ -57,7 +59,7 @@ the IBM Granite Code models.
 
 ## Contributing
 
-For information about contributing to this repo, code of conduct guidelines, etc., see the community [CONTRIBUTING][CG] and [Code of Conduct][CoC] guides.  All commits require DCO-signoff (discussed [here][CG-legal]) _and_ GPG or SSH signing (discussed [here][CG-signing]).  The GitHub recommended code security settings are enforced on this public repository (which include the signing requirement).
+For information about contributing to this repo, code of conduct guidelines, etc., see the community [CONTRIBUTING][CG] and [Code of Conduct][CoC] guides.  All commits require DCO-signoff (discussed [here][CG-legal]) _and_ GPG or SSH signing (discussed [here][CG-signing]).  The GitHub recommended code security settings are enforced on this public repository (which include the signing requirement). 
 
 For more background and a FAQ, please see the [community wiki](https://github.com/ibm-granite-community/community/wiki)
 
