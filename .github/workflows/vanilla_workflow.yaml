@@ -7,12 +7,14 @@ on:
     paths:
       - 'recipes/Getting_Started_with_Granite_Code.ipynb'
       - 'recipes/Guard-Rails/HAP.ipynb'
+      - 'recipes/Generate-Acceptance-Tests/Generate_Test_Api_Spec.ipynb'
   pull_request:
     branches:
       - main
     paths:
       - 'recipes/Getting_Started_with_Granite_Code.ipynb'
       - 'recipes/Guard-Rails/HAP.ipynb'
+      - 'recipes/Generate-Acceptance-Tests/Generate_Test_Api_Spec.ipynb'
 
 jobs:
   test-vanilla-notebooks:

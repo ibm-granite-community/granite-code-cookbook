@@ -8,6 +8,7 @@ on:
       - 'recipes/Text_to_Shell/Text_to_Shell.ipynb'
       - 'recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb'
       - 'recipes/Text_to_SQL/Text_to_SQL.ipynb'
+      - 'recipes/Generate-Acceptance-Tests/Generate_Test_Api_Spec.ipynb'
   pull_request:
     branches:
       - main
@@ -15,6 +16,7 @@ on:
       - 'recipes/Text_to_Shell/Text_to_Shell.ipynb'
       - 'recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb'
       - 'recipes/Text_to_SQL/Text_to_SQL.ipynb'
+      - 'recipes/Generate-Acceptance-Tests/Generate_Test_Api_Spec.ipynb'
 
 jobs:
   test-ollama-notebooks:
