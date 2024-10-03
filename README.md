@@ -49,6 +49,11 @@ If you are interested in joining our community, please [join us on Discord](http
    <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/Text_to_SQL/Text_to_SQL.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
+1. [Automated Code Documentation](recipes/Automated_Documentation/Automated_Documentation.ipynb)
+   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/Automated_Documentation/Automated_Documentation.ipynb">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+   </a>
+
 
 ### Guard Rails
 
