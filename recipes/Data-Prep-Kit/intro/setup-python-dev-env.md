@@ -38,11 +38,11 @@ conda install gxx_linux-64
 Get the repo
 
 ```bash
-git   clone  https://github.com/sujee/data-prep-kit-examples
+git   clone  https://github.com/ibm-granite-community/granite-code-cookbook/
 ```
 
 ```bash
-cd  data-prep-kit-examples
+cd    recipes/Data-Prep-Kit/intro/
 ```
 
 install all needed packages
