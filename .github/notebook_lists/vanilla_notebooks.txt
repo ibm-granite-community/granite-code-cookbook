@@ -3,3 +3,4 @@ recipes/Guard-Rails/HAP.ipynb
 recipes/Auto_Documentation/Auto_Documentation.ipynb
 recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb
 recipes/Text_to_SQL/Text_to_SQL.ipynb
+recipes/generate_sql_and_execute/generate_sql_and_exec.ipynb
