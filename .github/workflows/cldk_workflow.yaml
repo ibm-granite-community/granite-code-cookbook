@@ -8,6 +8,7 @@ on:
       - 'recipes/CodeLLM_DevKit/code_summarization.ipynb'
       - 'recipes/CodeLLM_DevKit/generate_unit_tests.ipynb'
       - 'recipes/CodeLLM_DevKit/validating_code_translation.ipynb'
+      - 'recipes/Text_to_SQL/Text_to_SQL_1a.ipynb'
   pull_request:
     branches:
       - main
@@ -15,7 +16,7 @@ on:
       - 'recipes/CodeLLM_DevKit/code_summarization.ipynb'
       - 'recipes/CodeLLM_DevKit/generate_unit_tests.ipynb'
       - 'recipes/CodeLLM_DevKit/validating_code_translation.ipynb'
-
+      - 'recipes/Text_to_SQL/Text_to_SQL_1a.ipynb'
 jobs:
   test-java-notebooks:
     runs-on: ubuntu-latest
