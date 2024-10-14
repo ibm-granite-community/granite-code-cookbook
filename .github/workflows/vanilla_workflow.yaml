@@ -11,6 +11,7 @@ on:
       - 'recipes/Text_to_Shell/Text_to_Shell.ipynb'
       - 'recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb'
       - 'recipes/Text_to_SQL/Text_to_SQL.ipynb'
+      - 'recipes/generate_sql_and_execute/generate_sql_and_exec.ipynb'
   pull_request:
     branches:
       - main
@@ -21,7 +22,7 @@ on:
       - 'recipes/Text_to_Shell/Text_to_Shell.ipynb'
       - 'recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb'
       - 'recipes/Text_to_SQL/Text_to_SQL.ipynb'
-
+      - 'recipes/generate_sql_and_execute/generate_sql_and_exec.ipynb'
 
 jobs:
   test-vanilla-notebooks:
