@@ -3,5 +3,5 @@ recipes/Guard-Rails/HAP.ipynb
 recipes/Auto_Documentation/Auto_Documentation.ipynb
 recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb
 recipes/Text_to_SQL/Text_to_SQL.ipynb
-recipes/UnitTest_Code_Gen/unit_test_cases_gen.ipynb
+recipes/Unit_Tests_Generation/Unit_Tests_Generation.ipynb
 
