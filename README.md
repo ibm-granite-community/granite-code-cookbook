@@ -36,6 +36,7 @@ If you are interested in joining our community, please [join us on Discord](http
    <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/Automated_Documentation/Automated_Documentation.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
+1. [Project level code completion benchmark](recipes/Benchmarking/project_level_code_completion.ipynb)
 
 ## Contributing
 
