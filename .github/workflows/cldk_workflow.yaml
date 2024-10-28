@@ -56,7 +56,8 @@ jobs:
 
       - name: Run Java Notebooks
         run: |
-          notebooks=$(cat .github/notebook_lists/cldk_notebooks.txt | tr '\n' ' ')  
+          set -e
+          notebooks=$(cat .github/notebook_lists/cldk_notebooks.txt | grep -v '^#' | tr '\n' ' ')  
           for notebook in $notebooks; do  
             echo "Executing $notebook"  
             jupyter nbconvert --to notebook --execute --inplace $notebook  
