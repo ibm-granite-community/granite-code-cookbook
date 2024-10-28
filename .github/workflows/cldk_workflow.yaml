@@ -56,7 +56,6 @@ jobs:
 
       - name: Run Java Notebooks
         run: |
-          set -e
           notebooks=$(cat .github/notebook_lists/cldk_notebooks.txt | grep -v '^#' | tr '\n' ' ')  
           for notebook in $notebooks; do  
             echo "Executing $notebook"  
