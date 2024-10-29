@@ -56,7 +56,7 @@ jobs:
 
       - name: Run Java Notebooks
         run: |
-          notebooks=$(cat .github/notebook_lists/cldk_notebooks.txt | tr '\n' ' ') 
+          notebooks=$(cat .github/notebook_lists/cldk_notebooks.txt | grep -v '^#' | tr '\n' ' ') 
           for notebook in $notebooks; do 
             echo "Building virtual env"  
             rm -rf .venv
