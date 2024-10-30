@@ -37,6 +37,16 @@ If you are interested in joining our community, please [join us on Discord](http
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
 
+## Build Status
+
+<a href="https://github.com/ibm-granite-community/granite-code-cookbook/actions/workflows/vanilla_workflow.yaml">
+  <img src="https://github.com/ibm-granite-community/granite-code-cookbook/actions/workflows/vanilla_workflow.yaml/badge.svg" alt="CI for Jupyter Notebooks">
+</a>
+
+<a href="https://github.com/ibm-granite-community/granite-code-cookbook/actions/workflows/cldk_workflow.yaml">
+  <img src="https://github.com/ibm-granite-community/granite-code-cookbook/actions/workflows/cldk_workflow.yaml/badge.svg" alt="CI for CLDK Notebooks">
+</a>
+
 ## Contributing
 
 For information about contributing to this repo, code of conduct guidelines, etc., see the community [CONTRIBUTING][CG] and [Code of Conduct][CoC] guides.  All commits require DCO-signoff (discussed [here][CG-legal]) _and_ GPG or SSH signing (discussed [here][CG-signing]).  The GitHub recommended code security settings are enforced on this public repository (which include the signing requirement). 
