@@ -11,6 +11,7 @@ on:
       - 'recipes/Text_to_Shell/Text_to_Shell.ipynb'
       - 'recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb'
       - 'recipes/Text_to_SQL/Text_to_SQL.ipynb'
+      - 'recipes/Unit_Tests_Generation/Unit_Tests_Generation.ipynb'
   pull_request:
     branches:
       - main
@@ -21,7 +22,7 @@ on:
       - 'recipes/Text_to_Shell/Text_to_Shell.ipynb'
       - 'recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb'
       - 'recipes/Text_to_SQL/Text_to_SQL.ipynb'
-
+      - 'recipes/Unit_Tests_Generation/Unit_Tests_Generation.ipynb'
 
 jobs:
   test-vanilla-notebooks:
@@ -45,8 +46,17 @@ jobs:
         env:
           REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
         run: |
-          notebooks=$(cat .github/notebook_lists/vanilla_notebooks.txt | tr '\n' ' ')  
-          for notebook in $notebooks; do  
-            echo "Executing $notebook"  
-            jupyter nbconvert --to notebook --execute --inplace $notebook  
+          notebooks=$(cat .github/notebook_lists/vanilla_notebooks.txt | grep -v '^#' | tr '\n' ' ')  
+          for notebook in $notebooks; do 
+            echo "Building virtual env"  
+            rm -rf .venv
+            python -m venv .venv
+            source .venv/bin/activate
+            pip install ipykernel
+            echo "Installing kernel $kernel"
+            kernel=$(basename $notebook)
+            python -m ipykernel install --user --name $kernel 
+            echo "Executing $notebook"
+            jupyter nbconvert --to notebook --execute --ExecutePreprocessor.kernel_name $kernel --inplace $notebook
+            deactivate
           done
