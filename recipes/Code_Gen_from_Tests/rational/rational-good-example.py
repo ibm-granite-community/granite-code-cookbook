@@ -1,13 +1,12 @@
-# Insert the generated Rational class here.
-# Don't include the test code or any markdown or other text included in the generated output!
-# Include appropriate import statements, e.g., you may see the generated code calls `gcd` (for
-# greatest common divisor, which would require this import `from math import gcd`.
-
 from math import gcd
 
 class Rational:
     """
-    A class representing rational numbers.
+    A class representing rational numbers. Note this implementation doesn't cover any 
+    algebraic operations, because the tests don't cover them either. This is left as
+    an exercise for you to do ;) However, it does correctly divide the numerator and
+    denominator by their greatest common divisor, "M", e.g., 
+    N/D == (M*N')/(M*D') == N'/D'
 
     Attributes:
         numerator (int): The numerator of the rational number.
