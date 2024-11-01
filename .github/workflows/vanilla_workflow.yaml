@@ -12,6 +12,7 @@ on:
       - 'recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb'
       - 'recipes/Text_to_SQL/Text_to_SQL.ipynb'
       - 'recipes/Unit_Tests_Generation/Unit_Tests_Generation.ipynb'
+      - 'recipes/Code_Gen_from_Tests/Code_Gen_from_Tests.ipynb'
   pull_request:
     branches:
       - main
@@ -23,6 +24,7 @@ on:
       - 'recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb'
       - 'recipes/Text_to_SQL/Text_to_SQL.ipynb'
       - 'recipes/Unit_Tests_Generation/Unit_Tests_Generation.ipynb'
+      - 'recipes/Code_Gen_from_Tests/Code_Gen_from_Tests.ipynb'
 
 jobs:
   test-vanilla-notebooks:
