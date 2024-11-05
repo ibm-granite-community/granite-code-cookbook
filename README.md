@@ -39,12 +39,8 @@ If you are interested in joining our community, please [join us on Discord](http
 
 ## Build Status
 
-<a href="https://github.com/ibm-granite-community/granite-code-cookbook/actions/workflows/vanilla_workflow.yaml">
-  <img src="https://github.com/ibm-granite-community/granite-code-cookbook/actions/workflows/vanilla_workflow.yaml/badge.svg" alt="CI for Jupyter Notebooks">
-</a>
-
-<a href="https://github.com/ibm-granite-community/granite-code-cookbook/actions/workflows/cldk_workflow.yaml">
-  <img src="https://github.com/ibm-granite-community/granite-code-cookbook/actions/workflows/cldk_workflow.yaml/badge.svg" alt="CI for CLDK Notebooks">
+<a href="https://github.com/ibm-granite-community/granite-code-cookbook/actions/workflows/notebooks.yaml">
+  <img src="https://github.com/ibm-granite-community/granite-code-cookbook/actions/workflows/notebooks.yaml/badge.svg" alt="Testing Notebooks">
 </a>
 
 ## Contributing
