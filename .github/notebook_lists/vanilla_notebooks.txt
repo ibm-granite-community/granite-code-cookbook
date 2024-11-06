@@ -4,4 +4,5 @@ recipes/Auto_Documentation/Auto_Documentation.ipynb
 recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb
 recipes/Text_to_SQL/Text_to_SQL.ipynb
 recipes/Unit_Tests_Generation/Unit_Tests_Generation.ipynb
+recipes/Generate_RAG_Code/Generate_RAG_Code.ipynb
 
