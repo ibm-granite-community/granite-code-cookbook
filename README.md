@@ -27,7 +27,7 @@ If you are interested in joining our community, please [join us on Discord](http
    </a>
 1. [Generating code summary using CodeLLM-DevKit](recipes/CodeLLM_DevKit/code_summarization.ipynb)
 1. [Generating junit test cases using CodeLLM-DevKit](recipes/CodeLLM_DevKit/generate_unit_tests.ipynb)
-1. [Generating code from unit tests](recipes/Code_Gen_from_Tests/Code_Gen_from_Tests.ipynb)
+1. [Generating Python code from unit tests](recipes/Code_Gen_from_Tests/Code_Gen_from_Tests.ipynb)
    <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/Code_Gen_from_Tests/Code_Gen_from_Tests.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
