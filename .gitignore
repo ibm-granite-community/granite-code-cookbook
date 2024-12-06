@@ -24,3 +24,6 @@ temp/
 
 # CodeLLM_DevKit output
 analysis.json
+
+# Hypothesis test files
+.hypothesis/
