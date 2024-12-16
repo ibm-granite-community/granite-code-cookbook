@@ -7,18 +7,6 @@ If you are interested in joining our community, please [join us on Discord](http
 
 ## Recipes
 
-### Notebook Environments
-
-1. [Run Jupyter Notebooks Locally](recipes/Getting_Started_with_Jupyter_Locally/Getting_Started_with_Jupyter_Locally.md)
-2. A Google Colab button is adjacent to the recipes listed below wherever that environment is supported.
-
-### Large Language Model Inference
-
-1. [Use Granite Code Hosted on Replicate](recipes/Getting_Started_with_Granite_Code.ipynb)
-   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/Getting_Started_with_Granite_Code.ipynb">
-   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-   </a>
-
 ### IDE Assistants
 
 1. [Coding Assistant in VSCode](recipes/Coding_Assistant_in_VSCode/Coding_Assistant_in_VSCode.ipynb)
@@ -33,29 +21,31 @@ If you are interested in joining our community, please [join us on Discord](http
    <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/Text_to_Shell_Exec/Text_to_Shell_Exec.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
-1. [Generating code summary using CodeLLM-DevKit](recipes/CodeLLM_DevKit/code_summarization.ipynb)
-   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/CodeLLM_DevKit/code_summarization.ipynb">
+1. [Finetuning Example](recipes/Fine_Tuning_Granite/Finetuning_Granite.ipynb)
+   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/Fine_Tuning_Granite/Finetuning_Granite.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
+1. [Generating code summary using CodeLLM-DevKit](recipes/CodeLLM_DevKit/code_summarization.ipynb)
 1. [Generating junit test cases using CodeLLM-DevKit](recipes/CodeLLM_DevKit/generate_unit_tests.ipynb)
-   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/CodeLLM_DevKit/generate_unit_tests.ipynb">
+1. [Generating Python code from unit tests](recipes/Code_Gen_from_Tests/Code_Gen_from_Tests.ipynb)
+   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/Code_Gen_from_Tests/Code_Gen_from_Tests.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
 1. [Validating code translation (Java to Python) using CodeLLM-DevKit](recipes/CodeLLM_DevKit/validating_code_translation.ipynb)
-    <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/CodeLLM_DevKit/validating_code_translation.ipynb">
-   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-   </a>
 1. [Text to SQL with Execution](recipes/Text_to_SQL/Text_to_SQL.ipynb)
    <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/Text_to_SQL/Text_to_SQL.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
-
-### Guard Rails
-
-1. [Hate, Abuse, and Profanity (HAP) Scoring](recipes/Guard-Rails/HAP.ipynb)
-   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/Guard-Rails/HAP.ipynb">
+1. [Automated Code Documentation](recipes/Automated_Documentation/Automated_Documentation.ipynb)
+   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/Automated_Documentation/Automated_Documentation.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
+
+## Build Status
+
+<a href="https://github.com/ibm-granite-community/granite-code-cookbook/actions/workflows/notebooks.yaml">
+  <img src="https://github.com/ibm-granite-community/granite-code-cookbook/actions/workflows/notebooks.yaml/badge.svg" alt="Testing Notebooks">
+</a>
 
 ## Contributing
 
