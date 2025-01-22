@@ -3,8 +3,6 @@
 The "Recipes" in the Granite Code Cookbook showcase the capabilities of
 the IBM Granite Code models.
 
-If you are interested in joining our community, please [join us on Discord](https://discord.gg/PeThSs7A).
-
 ## Recipes
 
 ### IDE Assistants
