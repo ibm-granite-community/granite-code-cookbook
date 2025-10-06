@@ -3,8 +3,6 @@
 The "Recipes" in the Granite Code Cookbook showcase the capabilities of
 the IBM Granite Code models.
 
-If you are interested in joining our community, please [join us on Discord](https://discord.gg/PeThSs7A).
-
 ## Recipes
 
 ### IDE Assistants
@@ -40,7 +38,10 @@ If you are interested in joining our community, please [join us on Discord](http
    <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/Automated_Documentation/Automated_Documentation.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
-
+1. [Text to Python Code](recipes/Text_to_Python/Text_to_Python.ipynb)
+   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-code-cookbook/blob/main/recipes/Text_to_Python/Text_to_Python.ipynb">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+   </a>
 ## Build Status
 
 <a href="https://github.com/ibm-granite-community/granite-code-cookbook/actions/workflows/notebooks.yaml">

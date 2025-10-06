@@ -51,10 +51,19 @@ jobs:
       status_url: ${{ steps.pr.outputs.status_url }}
       run_url: ${{ steps.pr.outputs.run_url }}
     steps:
+      - name: "Harden Runner"
+        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+        with:
+          disable-sudo-and-containers: true
+          egress-policy: block
+          allowed-endpoints: >
+            api.github.com:443
+            github.com:443
+
       - name: Checkout
         if: ${{ inputs.pr }}
         id: checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
         with:
           ref: ${{ inputs.pr && format('refs/pull/{0}/head',inputs.pr) || '' }}
 
@@ -105,6 +114,7 @@ jobs:
       ref: ${{ needs.test_workflow_ready.outputs.ref }}
       all: ${{ fromJSON(needs.test_workflow_ready.outputs.all) }}
       action: .github/actions/cldk-setup
+      free-disk-space: '{"large-packages": false}'  # Takes a long time
 
   test_workflow_complete:
     needs:
@@ -117,6 +127,15 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ !cancelled() && (needs.test_workflow_ready.result == 'success') }}
     steps:
+      - name: "Harden Runner"
+        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+        with:
+          disable-sudo-and-containers: true
+          egress-policy: block
+          allowed-endpoints: >
+            api.github.com:443
+            github.com:443
+
       - name: Pull Request dispatch
         if: ${{ inputs.pr }}
         run: |
