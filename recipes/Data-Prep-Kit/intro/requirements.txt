@@ -1,0 +1,30 @@
+## Data prep kit
+
+data-prep-toolkit-transforms==0.2.1
+data-prep-toolkit-transforms-ray==0.2.1
+
+deepsearch-toolkit==1.0.1
+
+# datasets
+datasets==3.0.1
+
+## Torch and enbeddings
+torch==2.4.1
+sentence-transformers==3.0.1
+
+## --- Parquet
+pandas==2.2.2
+pyarrow==16.1.0
+
+
+# --- Utils
+humanfriendly
+
+## --- Jupyter Utils
+jupyterlab
+ipykernel
+ipython
+ipywidgets
+IProgress
+chardet==5.2.0
+charset-normalizer==3.3.2

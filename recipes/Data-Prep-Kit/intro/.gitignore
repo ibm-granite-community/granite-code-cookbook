@@ -1,0 +1,20 @@
+## embedded database files
+*.db
+*.lock
+
+## Output created by processors
+output*/
+archived/
+*.zip
+
+## pyenv file with configuration and secrets like tokens, passwords
+.env
+
+## File system artifacts
+.directory
+.DS_Store
+
+
+## Python output
+__pycache__
+.ipynb_checkpoints/
